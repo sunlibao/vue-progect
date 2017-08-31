@@ -28,8 +28,10 @@ export default {
   }
 
  body{
-
+      background-image: url(./assets/backgroud-image.jpg);
   }
+
+
 
 </style>
 
