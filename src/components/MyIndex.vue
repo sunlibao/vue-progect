@@ -1,7 +1,7 @@
 <template>
-  <div class="container" style="padding: 0px;margin:5px auto;">
+  <div class="container" >
       <MyHeader></MyHeader>
-    <div class="row">
+    <div class="row" style="margin: 0px;" >
           <div class="col-md-3" style="">
             <LeftMenu></LeftMenu>
           </div>
@@ -53,4 +53,14 @@ li {
 a {
   color: #42b983;
 }
+
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+}
+ body{
+   margin: 0;
+   padding: 0px;
+ }
 </style>

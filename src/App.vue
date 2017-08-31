@@ -23,6 +23,14 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+  body,html,#app,.container{
+    height: 100%;
+  }
+
+ body{
+
+  }
+
 </style>
 
-<!--test1-->
+

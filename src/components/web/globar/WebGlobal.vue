@@ -39,8 +39,8 @@
   }
 
 
-  //const baseUrl = "http://www.211314buy.com:8080/GeneratorCode";
-  const baseUrl = "http://localhost:8080/GeneratorCode";
+  const baseUrl = "http://www.211314buy.com:8080/GeneratorCode";
+  //const baseUrl = "http://localhost:8080/GeneratorCode";
 
   export default
   {

@@ -1,5 +1,6 @@
 <template xmlns:v-on="http://www.w3.org/1999/xhtml">
-    <nav id="myHeader" class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 10px;">
+    <nav id="myHeader" class="navbar navbar-default navbar-static-top" role="navigation"
+         style="margin-bottom: 3px;">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" >vue学习</a>

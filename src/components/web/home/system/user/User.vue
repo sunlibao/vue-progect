@@ -201,7 +201,7 @@
             }).then(({ value }) => {//确认删除
               let that = this;
               //操作调用
-              this.GLOBAL.ajaxPost("/system/user/deleteUser",row,function (msg) {
+              this.GLOBAL.ajaxPostDefalut("/system/user/deleteUser",row,function (msg) {
                 that.$message("删除成功");
                 that.loadData(1);
               },function (msg) {
@@ -240,7 +240,7 @@
       submitUserRole:function (userRule) {
         if(userRule){
           let that = this;
-            this.GLOBAL.ajaxPost("/system/user/setUserRole",userRule,function (msg) {
+            this.GLOBAL.ajaxPostDefalut("/system/user/setUserRole",userRule,function (msg) {
               that.$message("角色设置成功");
               that.dialogUserRoleVisable = false;
               that.loadData();
