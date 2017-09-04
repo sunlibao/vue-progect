@@ -23,11 +23,25 @@
             权限管理
         </el-menu-item>
       </el-submenu>
+      <el-submenu index="2" >
+        <template slot="title">
+          <span slot="title">绩效管理</span>
+        </template>
+        <el-menu-item index="/home/epm/kpi">
+          <span slot="title">我的绩效</span>
+        </el-menu-item>
+        <el-menu-item index="">
+          <span slot="title">管理下属</span>
+        </el-menu-item>
+        <el-menu-item index="">
+          <span slot="title">评价同僚</span>
+        </el-menu-item>
+        <el-menu-item index="">
+          <span slot="title">打分帽</span>
+        </el-menu-item>
+      </el-submenu>
 
-      <el-menu-item index="2" v-if="false">
-        <i class="el-icon-menu"></i>
-        <span slot="title">导航二</span>
-      </el-menu-item>
+
       <el-menu-item index="3" v-if="false">
         <i class="el-icon-setting"></i>
         <span slot="title">导航三</span>

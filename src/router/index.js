@@ -9,7 +9,7 @@ import User from  '../components/web/home/system/user/User.vue'
 import Menu from  '../components/web/home/system/menu/Menu.vue'
 import Role from  '../components/web/home/system/role/Role.vue'
 import Permission from  '../components/web/home/system/permission/Permission.vue'
-
+import Kpi from  '../components/web/home/epm/kpi/Kpi.vue'
 
 export default new Router({
   routes: [
@@ -38,6 +38,9 @@ export default new Router({
         },{
           path:'system/permission',
           component:Permission
+        },{
+          path:'epm/kpi',
+          component:Kpi
         }
       ]
 
