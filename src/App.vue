@@ -28,7 +28,7 @@ export default {
   }
 
  body{
-      background-image: url(./assets/backgroud-image.jpg) ;
+     /* background-image: url(./assets/backgroud-image.jpg) ;*/
       background-repeat:no-repeat;
       background-size: 100%;
   }

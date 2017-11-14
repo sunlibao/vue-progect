@@ -8,7 +8,7 @@ import Error404 from '../components/web/error/Error404.vue'
 import User from  '../components/web/home/system/user/User.vue'
 import Menu from  '../components/web/home/system/menu/Menu.vue'
 import Role from  '../components/web/home/system/role/Role.vue'
-import Permission from  '../components/web/home/system/permission/Permission.vue'
+import Permission from  '../components/web/home/system/permission/Permission2.vue'
 import Kpi from  '../components/web/home/epm/kpi/Kpi.vue'
 
 export default new Router({
